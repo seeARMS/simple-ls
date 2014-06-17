@@ -1,8 +1,8 @@
 simple-ls
 =========
 
-A simple C program listing all files (including symbolic links) contained within a directory.
-Similar functionality to the linux ls program (except written in >200 lines).
+A simple C program listing all files and directories (including symbolic links) contained within a directory.
+Similar functionality to the linux ls program (except written in less than 200 lines).
 
 Instructions
 ------------
@@ -12,7 +12,7 @@ Usage
 ----
 ./simple-ls <option> <directory>
 
-Options can contain -u (last access time), -c (creation time), or -l (last modified time).
+Options are -u (last access time), -c (creation time), or -l (last modified time).
 
 Example:
 
